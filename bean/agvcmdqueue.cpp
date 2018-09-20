@@ -87,7 +87,7 @@ void AgvCmdQueue::sendOrder()
 
     lastSendOrderAmount = 0;
 
-    for(int i=0;i<3;++i)//??3/ 与前面说的order（0,4）？
+    for(int i=0;i<3;++i)//??3  与前面说的order（0,4）？
     {
         if(i+ordersSendIndex>=orders.size()){
             //放入一个空
